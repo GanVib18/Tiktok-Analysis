@@ -1,6 +1,8 @@
 # Comparative Analysis of Sponsored vs. Organic Content on Fitness TikTok
 
-> **Does selling out mean selling short?** A data-driven analysis of 2,500 TikTok videos to quantify the impact of sponsorship on linguistic authenticity and viewer engagement.
+> **Does selling out mean selling short?**
+
+A data-driven analysis of 2,500 TikTok videos to quantify the impact of sponsorship on linguistic authenticity and viewer engagement.
 
 ## Project Overview
 
