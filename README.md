@@ -2,13 +2,13 @@
 
 > **Does selling out mean selling short?** A data-driven analysis of 2,500 TikTok videos to quantify the impact of sponsorship on linguistic authenticity and viewer engagement.
 
-## 📌 Project Overview
+## Project Overview
 
 [cite_start]Influencer marketing is projected to reach **$32.55 billion by 2025**, with TikTok emerging as a dominant platform[cite: 23, 24]. However, a key question remains: *Does the commercial nature of sponsored content degrade the authenticity that drives engagement?*
 
 This project analyzes the "Sell-Out Effect" in the fitness niche. By scraping and analyzing 2,500 videos from 25 creators, we developed a custom **Authenticity Index** and employed a **Multi-Agent AI Architecture** to determine how sponsorship alters linguistic patterns and how audiences react to those changes.
 
-## 🚀 Key Features & Methodology
+## Key Features & Methodology
 
 ### 1\. Data Collection Pipeline
 
@@ -40,7 +40,7 @@ $$
 
 -----
 
-## 📊 Key Findings
+## Key Findings
 
 ### 1\. The "Sell-Out" Effect is Real
 
@@ -66,7 +66,7 @@ Even within sponsored content, "sounding human" correlates with success. Authent
 
 -----
 
-## 🛠 Tech Stack
+## Tech Stack
 
   * **Language:** Python
   * **Data Collection:** `yt-dlp`
@@ -92,19 +92,17 @@ Even within sponsored content, "sounding human" correlates with success. Authent
 
 ```bash
 ├── data/               # Anonymized dataset samples
-├── notebooks/          # Jupyter notebooks for NLP and Statistical Analysis
-├── src/
-│   ├── scraper.py      # yt-dlp implementation
-│   ├── classifiers.py  # Sponsored content detection logic
-│   └── agents.py       # Multi-agent AI architecture setup
-├── metrics/            # Authenticity Index calculation logic
+├── code/               # Python scripts for NLP and Statistical Analysis
+├── report/             # PDF report covering the causal research strategy
 └── presentation/       # PDF of the final findings
 ```
 
 ## 📝 Contact & Credits
 
 [cite_start]**Author:** Vibhuti Gandhi [cite: 5]
+
 [cite_start]**Course:** BUS 439 Analytics Project (Fall 2025) [cite: 3, 4]
+
 [cite_start]**Email:** vga17@sfu.ca [cite: 364]
 
 -----
