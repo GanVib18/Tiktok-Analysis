@@ -4,7 +4,9 @@
 
 ## Project Overview
 
-[cite_start]Influencer marketing is projected to reach **$32.55 billion by 2025**, with TikTok emerging as a dominant platform[cite: 23, 24]. However, a key question remains: *Does the commercial nature of sponsored content degrade the authenticity that drives engagement?*
+Influencer marketing is projected to reach **$32.55 billion by 2025**, with TikTok emerging as a dominant platform. 
+
+However, a key question remains: *Does the commercial nature of sponsored content degrade the authenticity that drives engagement?*
 
 This project analyzes the "Sell-Out Effect" in the fitness niche. By scraping and analyzing 2,500 videos from 25 creators, we developed a custom **Authenticity Index** and employed a **Multi-Agent AI Architecture** to determine how sponsorship alters linguistic patterns and how audiences react to those changes.
 
@@ -13,26 +15,26 @@ This project analyzes the "Sell-Out Effect" in the fitness niche. By scraping an
 ### 1\. Data Collection Pipeline
 
   * **Source:** TikTok (Fitness Niche).
-  * [cite_start]**Sample:** 25 Creators stratified by follower count (Low: \<100k, Medium: 100k-1M, High: \>1M) [cite: 74-78].
-  * [cite_start]**Volume:** 2,500 Videos analyzed[cite: 81].
-  * [cite_start]**Tools:** Python, `yt-dlp` for scraping video metadata and transcripts[cite: 80].
+  * **Sample:** 25 Creators stratified by follower count (Low: \<100k, Medium: 100k-1M, High: \>1M).
+  * **Volume:** 2,500 Videos analyzed.
+  * **Tools:** Python, `yt-dlp` for scraping video metadata and transcripts.
 
 ### 2\. The "Authenticity Index" Algorithm
 
-[cite_start]We engineered a custom composite score (0-100) to quantify how "real" a video sounds using NLP [cite: 256-260].
+We engineered a custom composite score (0-100) to quantify how "real" a video sounds using NLP.
 
 $$
 \text{Authenticity Score} = \sum(\text{Warmth}, \text{1st Person}, \text{Readability}) - (\text{Commercial Intent})
 $$
 
-  * [cite_start]**VADER:** Used to measure emotional valence (sentiment intensity)[cite: 233].
+  * **VADER:** Used to measure emotional valence (sentiment intensity).
   * **Empath:** Used to analyze topics.
-      * [cite_start]*Positive Signals:* Warmth (family, friends, trust), Immediacy ("I", "me", "my") [cite: 261-264].
-      * [cite_start]*Negative Signals:* Commercialism (money, business, selling terms)[cite: 269].
+      * *Positive Signals:* Warmth (family, friends, trust), Immediacy ("I", "me", "my").
+      * *Negative Signals:* Commercialism (money, business, selling terms).
 
 ### 3\. Multi-Agent AI Architecture
 
-[cite_start]To deepen the analysis, we deployed a Multi-Agent system using **Gemini-2.5-flash** to categorize content strategy[cite: 373, 389]:
+To deepen the analysis, we deployed a Multi-Agent system using **Gemini-2.5-flash** to categorize content strategy:
 
   * **Content Effectiveness Agent:** Analyzes hooks and content structure.
   * **Audience Response Agent:** Evaluates emotional triggers and value delivery.
@@ -47,22 +49,22 @@ $$
 There is a statistically significant drop in linguistic authenticity when a video is sponsored ($p<0.001$).
 
   * **Organic Content Mean Score:** 42.35
-  * [cite_start]**Sponsored Content Mean Score:** 36.72[cite: 276, 277].
+  * **Sponsored Content Mean Score:** 36.72.
 
 ### 2\. The "Mega-Influencer" Paradox
 
 The bigger the influencer, the "faker" they sound in ads.
 
   * **High Tier (\>1M followers):** Authenticity drops by **10 points** in sponsored videos.
-  * [cite_start]**Low Tier (\<100k followers):** Authenticity drops by only **1.6 points**[cite: 307].
+  * **Low Tier (\<100k followers):** Authenticity drops by only **1.6 points**.
 
 ### 3\. Authenticity Pays (Literally)
 
-Even within sponsored content, "sounding human" correlates with success. Authenticity is a positive predictor of Engagement Rate ($p<0.001$). [cite_start]Videos that maintained warmth and first-person language performed significantly better than scripted, commercial-heavy videos[cite: 327, 331].
+Even within sponsored content, "sounding human" correlates with success. Authenticity is a positive predictor of Engagement Rate ($p<0.001$). Videos that maintained warmth and first-person language performed significantly better than scripted, commercial-heavy videos.
 
 ### 4\. Emotional Triggers
 
-[cite_start]Deep emotional triggers (content focusing on feelings/experiences) generated **23.3% higher engagement** than shallow emotional triggers [cite: 491-493].
+Deep emotional triggers (content focusing on feelings/experiences) generated **23.3% higher engagement** than shallow emotional triggers.
 
 -----
 
@@ -79,7 +81,7 @@ Even within sponsored content, "sounding human" correlates with success. Authent
 
 ## 💡 Recommendations
 
-[cite_start]Based on the data, we propose the following strategies for the industry [cite: 353-361]:
+Based on the data, we propose the following strategies for the industry:
 
 | Stakeholder | Recommendation |
 | :--- | :--- |
@@ -99,11 +101,11 @@ Even within sponsored content, "sounding human" correlates with success. Authent
 
 ## 📝 Contact & Credits
 
-[cite_start]**Author:** Vibhuti Gandhi [cite: 5]
+**Author:** Vibhuti Gandhi
 
-[cite_start]**Course:** BUS 439 Analytics Project (Fall 2025) [cite: 3, 4]
+**Course:** BUS 439 Analytics Project (Fall 2025)
 
-[cite_start]**Email:** vga17@sfu.ca [cite: 364]
+**Email:** vga17@sfu.ca
 
 -----
 
