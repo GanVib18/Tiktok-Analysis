@@ -110,5 +110,3 @@ Based on the data, we propose the following strategies for the industry:
 **Email:** vga17@sfu.ca
 
 -----
-
-*Citations reference the project presentation "Comparative Analysis of Sponsored and Organic Content on Fitness TikTok".*
