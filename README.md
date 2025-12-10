@@ -81,7 +81,7 @@ Deep emotional triggers (content focusing on feelings/experiences) generated **2
 
 -----
 
-## 💡 Recommendations
+## Recommendations
 
 Based on the data, we propose the following strategies for the industry:
 
@@ -92,7 +92,7 @@ Based on the data, we propose the following strategies for the industry:
 
 -----
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```bash
 ├── data/               # Anonymized dataset samples
@@ -101,7 +101,7 @@ Based on the data, we propose the following strategies for the industry:
 └── presentation/       # PDF of the final findings
 ```
 
-## 📝 Contact & Credits
+## Contact
 
 **Author:** Vibhuti Gandhi
 
