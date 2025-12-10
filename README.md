@@ -57,8 +57,8 @@ There is a statistically significant drop in linguistic authenticity when a vide
 
 The bigger the influencer, the "faker" they sound in ads.
 
-  * **High Tier (\>1M followers):** Authenticity drops by **10 points** in sponsored videos.
-  * **Low Tier (\<100k followers):** Authenticity drops by only **1.6 points**.
+  * **High Tier (\>1M followers):** Authenticity drops by **13 points** in sponsored videos.
+  * **Low Tier (\<100k followers):** Authenticity drops by only **5 points**.
 
 ### 3\. Authenticity Pays (Literally)
 
