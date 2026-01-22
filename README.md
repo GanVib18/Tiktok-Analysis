@@ -1,4 +1,5 @@
-# Comparative Analysis of Sponsored vs. Organic Content on Fitness TikTok
+# The Impact of Sponsorships on Authenticity and Engagement on Fitness TikTok
+
 
 > **Does selling out mean selling short?**
 
